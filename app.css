@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  background-color: beige;
+}
+
+.Container {
+  height: 100vh;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.InsideContainer {
+  height: 20vmin;
+  width: 20vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.boxes {
+  height: 5vmin;
+  width: 5vmin;
+  font-size: 18px;
+}
+input {
+  height: 30px;
+  width: 200px;
+  padding-bottom: 10px;
+  margin: 10px;
+}
